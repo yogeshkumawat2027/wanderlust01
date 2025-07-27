@@ -1,0 +1,104 @@
+body{
+    font-family: "plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 3rem;
+    background-color: aliceblue;
+}
+.fa-compass{
+    color: rgb(215, 14, 14);
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222 !important;
+}
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c6bfbf9b;
+    padding: 1rem;
+}
+.f-info-socials{
+    font-size:1.5rem ;
+    display: flex;
+    gap: 1rem;
+    
+
+}
+.f-info-socials a{
+    color: #222222;
+}
+
+/* cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.listing-links{
+    text-decoration: none;
+}
+
+/* card effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2 ;
+    background-color: white;
+}
+
+/* new  Page */
+.add-btn{
+    background-color: rgb(215, 14, 14) !important;
+    border: none !important;
+}
+/* Edit  Page */
+.edit-btn{
+    background-color: rgb(215, 14, 14) !important;
+    border: none !important;
+}
+/* SHOW PAGE */
+.show-img{
+    height: 30vh;
+}
+.btns{
+    display: flex;
+}
+
+/* MAP */
+
+body { margin: 0; padding: 0; }
+#map { 
+   height: 400px;
+   width: 80vh;
+}
